@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termin buchen - Brillenstudio Birrwyler</title>
+<meta name="description" content="Vereinbaren Sie einen Termin im Brillenstudio Birrwyler - f&uuml;r Sehtest, Brillen-Beratung, Kontaktlinsen-Anpassung oder Schiessbrillen-Beratung.">
+<meta name="theme-color" content="#004a7d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="demo-banner">Unverbindliche Redesign-Studie von <strong>digital M.</strong> &nbsp;&middot;&nbsp; Keine offizielle Brillenstudio-Birrwyler-Webseite &nbsp;&middot;&nbsp; <a href="https://digitalm.ch">digitalm.ch</a></div>
+
+<header class="nav">
+  <div class="nav-inner" id="nav">
+    <a href="index.html" class="brand"><span class="brand-mark">B</span><span>Birrwyler</span><span class="brand-sub">Brillenstudio</span></a>
+    <nav><ul class="nav-links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="brillen.html">Brillen</a></li>
+      <li><a href="kontaktlinsen.html">Kontaktlinsen</a></li>
+      <li><a href="sehtest.html">Sehtest</a></li>
+      <li><a href="schiessbrillen.html">Schiessbrillen</a></li>
+      <li><a href="filialen.html">Filialen</a></li>
+    </ul></nav>
+    <a href="termin.html" class="nav-cta">Termin buchen</a>
+    <button class="nav-toggle" onclick="document.getElementById('nav').classList.toggle('open')">Men&uuml;</button>
+  </div>
+</header>
+
+<main>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Start</a> &nbsp;/&nbsp; Termin buchen</div>
+    <h4>Kontakt &amp; Termin</h4>
+    <h1>Lassen Sie uns eine Zeit finden, die passt.</h1>
+    <p>W&auml;hlen Sie Filiale und Anlass - wir melden uns innerhalb eines Arbeitstages zur&uuml;ck. Oder rufen Sie uns direkt an. Pers&ouml;nlich ist oft schneller als digital.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="story-grid" style="grid-template-columns: 1.2fr 1fr;">
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Das ist eine unverbindliche Demo-Seite - nutzen Sie bitte direkt Telefon oder E-Mail. Danke!');">
+        <div>
+          <label for="vorname">Vorname</label>
+          <input id="vorname" name="vorname" type="text" placeholder="Anna" required>
+        </div>
+        <div>
+          <label for="nachname">Nachname</label>
+          <input id="nachname" name="nachname" type="text" placeholder="Muster" required>
+        </div>
+        <div>
+          <label for="email">E-Mail</label>
+          <input id="email" name="email" type="email" placeholder="anna@muster.ch" required>
+        </div>
+        <div>
+          <label for="telefon">Telefon</label>
+          <input id="telefon" name="telefon" type="tel" placeholder="079 123 45 67">
+        </div>
+        <div>
+          <label for="filiale">Filiale</label>
+          <select id="filiale" name="filiale">
+            <option>Frauenfeld - Z&uuml;rcherstrasse 207</option>
+            <option>Aadorf - Bahnhofstrasse 22</option>
+            <option>Egal - n&auml;chstm&ouml;glich</option>
+          </select>
+        </div>
+        <div>
+          <label for="anlass">Anlass</label>
+          <select id="anlass" name="anlass">
+            <option>Sehtest</option>
+            <option>Brillen-Beratung</option>
+            <option>Kontaktlinsen-Anpassung</option>
+            <option>Kontaktlinsen-Nachkauf</option>
+            <option>Schiessbrillen-Beratung</option>
+            <option>Reparatur / Nachjustage</option>
+            <option>Etwas anderes</option>
+          </select>
+        </div>
+        <div class="full">
+          <label for="nachricht">Ihre Nachricht</label>
+          <textarea id="nachricht" name="nachricht" placeholder="Terminwunsch, offene Fragen, aktuelle Brillenwerte&hellip;"></textarea>
+        </div>
+        <div class="full">
+          <button type="submit" class="btn">
+            Termin anfragen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </form>
+
+      <div>
+        <div class="location" style="margin-bottom: 24px;">
+          <h3 style="font-size: 1.4rem;">Frauenfeld</h3>
+          <ul class="location-contact">
+            <li><span>Telefon</span><a href="tel:+41527210466">052 721 04 66</a></li>
+            <li><span>E-Mail</span><a href="mailto:frauenfeld@brillenstudio.ch">frauenfeld@brillenstudio.ch</a></li>
+          </ul>
+        </div>
+        <div class="location" style="margin-bottom: 24px;">
+          <h3 style="font-size: 1.4rem;">Aadorf</h3>
+          <ul class="location-contact">
+            <li><span>Telefon</span><a href="tel:+41523651136">052 365 11 36</a></li>
+            <li><span>E-Mail</span><a href="mailto:aadorf@brillenstudio.ch">aadorf@brillenstudio.ch</a></li>
+          </ul>
+        </div>
+        <p class="muted" style="font-size: 14px; padding: 14px; background: var(--sand-100); border-left: 2px solid var(--sand-500);">
+          <strong>Hinweis zur Demo:</strong> Dieses Formular ist Teil einer unverbindlichen Redesign-Studie von digital M. und versendet keine echten Anfragen. Nutzen Sie bitte direkt Telefon oder E-Mail.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center"><h4>Gut vorbereitet</h4><h2>So holen Sie mehr aus Ihrem Termin heraus.</h2></div>
+    <div class="services">
+      <div class="service-card"><span class="num">A</span><h3>Aktuelle Brille mitbringen</h3><p>Wir k&ouml;nnen die bisherigen Werte vermessen und mit dem neuen Befund vergleichen.</p></div>
+      <div class="service-card"><span class="num">B</span><h3>Sehgewohnheiten notieren</h3><p>Bildschirmarbeit, Fahren bei Nacht, Sport, Lesen - wir richten die Beratung auf Ihren Alltag aus.</p></div>
+      <div class="service-card"><span class="num">C</span><h3>Offene Fragen sammeln</h3><p>Schreiben Sie sich auf, was Sie wissen wollen. Sonst vergisst man es zwischen Begr&uuml;ssung und Brillenprobe.</p></div>
+      <div class="service-card"><span class="num">D</span><h3>Zeit einplanen</h3><p>Sehtest 30 Min., Brillen-Beratung 45 Min., Kontaktlinsen-Anpassung 60 Min., Schiessbrillen 60-90 Min.</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="brand"><span class="brand-mark">B</span><span>Birrwyler</span></div><p>Ihr Familien-Optiker aus dem Thurgau. Seit 1975 in Frauenfeld, seit 1985 in Aadorf.</p></div>
+      <div><h4>Dienstleistungen</h4><ul><li><a href="sehtest.html">Sehtest</a></li><li><a href="brillen.html">Brillen &amp; Gl&auml;ser</a></li><li><a href="kontaktlinsen.html">Kontaktlinsen</a></li><li><a href="schiessbrillen.html">Schiessbrillen</a></li></ul></div>
+      <div><h4>Filialen</h4><ul><li><a href="filiale-frauenfeld.html">Frauenfeld</a></li><li><a href="filiale-aadorf.html">Aadorf</a></li><li><a href="team.html">Team</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul><li><a href="tel:+41527210466">052 721 04 66</a></li><li><a href="tel:+41523651136">052 365 11 36</a></li><li><a href="mailto:frauenfeld@brillenstudio.ch">frauenfeld@brillenstudio.ch</a></li><li><a href="mailto:aadorf@brillenstudio.ch">aadorf@brillenstudio.ch</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><div>&copy; 2026 Brillenstudio Birrwyler Frauenfeld AG &amp; Aadorf AG &middot; Look on the bright side.</div><div>Unverbindliche Redesign-Studie &middot; <a href="https://digitalm.ch">digital M.</a></div></div>
+  </div>
+</footer>
+
+</body>
+</html>
